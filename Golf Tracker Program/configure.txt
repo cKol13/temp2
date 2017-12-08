@@ -1,0 +1,16 @@
+# Resize resolution
+RESIZE_WIDTH: 704
+RESIZE_HEIGHT: 396
+
+MAX_AREA: 700
+MAX_MAGNTIUDE: 70
+ACC_DECAY_RATE: 4
+ACC_THRESHOLD: 8
+
+ERODE_SIZE: 7, 7
+DILATE_SIZE: 11, 11
+
+# Rect(Point(x1, y1), Point(x2, y2)) -> x1, y1, x2, y2 .... top left corner to bottom right corner
+START_RECT: 272, 336, 392, 396
+
+DATA_OUTPUT: false
